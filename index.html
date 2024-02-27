@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<section class="shadow-Generator">
+  <div class="container">
+    <div class="row items_center">
+      <div class="col-6">
+
+        <label for="offsetX">offset X</label>
+        <input id="offsetX" type="range" class="offsetX" min="-100" max="100">
+
+        <label for="offsetY">offset Y</label>
+        <input id="offsetY" type="range" class="offsetY" min="-100" max="100">
+
+        <label for="blur">Blur</label>
+        <input id="blur" type="range" class="blur" min="0" max="50" value="0">
+
+        <label for="stretch">Stretch</label>
+        <input id="stretch" type="range" class="stretch" min="0" max="50" value="0">
+
+        <label for="color">Color</label>
+        <input type="color" id="color" class="color" min="0" max="50" value="0">
+
+        <label for="inset">Inset</label>
+        <input type="checkbox" id="inset" class="inset">
+
+      </div>
+      <div class="col-6 secBox">
+        <div class="box"></div>
+        <div class="output">rgb(0, 0, 0) 0px 0px 0px 0px</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
